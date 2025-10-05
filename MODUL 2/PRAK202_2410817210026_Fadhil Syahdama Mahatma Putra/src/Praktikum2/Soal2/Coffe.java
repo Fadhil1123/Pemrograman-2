@@ -9,7 +9,7 @@ public class Coffe {
     public void info() {
         System.out.println("Nama Kopi : " + coffeName);
         System.out.println("Ukuran    : " + size);
-        System.out.println("Harga     : Rp." + String.format("%.0f", price));
+        System.out.println("Harga     : Rp." + String.format("%.1f", price));
     }
 
     public void setbuyer(String buyer) {
