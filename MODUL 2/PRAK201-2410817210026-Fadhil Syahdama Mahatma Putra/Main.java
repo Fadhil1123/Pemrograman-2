@@ -1,13 +1,24 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Fruits apple   = new Fruits("Apel",   0.4, 7000, 40);
-        Fruits mango   = new Fruits("Mangga", 0.2, 3500, 15);
-        Fruits avocado = new Fruits("Alpukat",0.25, 10000,12);
-
+        Fruits apple = new Fruits();
+        apple.setName("Apel");
+        apple.setWeight(0.4);
+        apple.setPrice(7000);
+        apple.setTotalWeight(40);
         apple.print();
+
+        Fruits mango = new Fruits();
+        mango.setName("Mangga");
+        mango.setWeight(0.2);
+        mango.setPrice(3500);
+        mango.setTotalWeight(15);
         mango.print();
+
+        Fruits avocado = new Fruits();
+        avocado.setName("Alpukat");
+        avocado.setWeight(0.25);
+        avocado.setPrice(10000);
+        avocado.setTotalWeight(12);
         avocado.print();
     }
 }
