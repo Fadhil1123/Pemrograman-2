@@ -11,9 +11,9 @@ public class Main{
         String name = scan.nextLine();
 
         myPet.input2();
-        String petRace = scan.nextLine();
+        String race = scan.nextLine();
 
-        myPet = new pet(petRace, name);
+        myPet = new pet(race, name);
 
         myPet.display();
         scan.close();
