@@ -9,14 +9,6 @@ public class pet {
         this.name = n;
     }
 
-    public void input1(){
-        System.out.print("Nama Hewan Peliharaan: ");
-    }
-
-    public void input2(){
-        System.out.print("Ras: ");
-    }
-
     public void display(){
         System.out.println("Detail Hewan Peliharaan:");
         System.out.println("Nama hewan peliharaanku adalah : " + name);
