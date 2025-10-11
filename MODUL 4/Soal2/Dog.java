@@ -1,16 +1,20 @@
 package Soal2;
-public class Dog extends Pet{
-    String furColor;
-    String[] skill;
+public  class Dog extends Pet{
+    private String furColor;
+    private String[] skill;
 
-    public void dog(String n, String f, String w, String[] k){
-        this.name = n;
-        this.race = f;
+    public Dog(String n, String r, String w, String k){
+        super(r, n);
         this.furColor = w;
-        this.skill = k;
+        this.skill = k.split(", ");
     }
 
     public void displayDogDetail(){
-        System.out.println("Dog");
+        super.display();
+        System.out.println("Warna Bulu: " +furColor);
+        System.out.print("Kemampuan: ");
+        for(int i = 0; i < skill.length; i++){
+            System.out.print(skill[i] + "  ");
+        }
     }
 }
