@@ -8,7 +8,7 @@ public class Main{
         System.out.print("Nama: ");
         String name = scan.nextLine();
 
-        System.out.print("Ras: ");
+        System.out.print("Dengan ras: ");
         String race = scan.nextLine();
 
         pet myPet = new pet(race, name);
