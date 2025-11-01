@@ -5,7 +5,7 @@ public class Rectangle extends Shape {
     private double width;
 
     public Rectangle(double r, double w){
-        super("Prak.Rectangle");
+        super("Rectangle");
         length=r;
         width=w;
     }
@@ -15,6 +15,6 @@ public class Rectangle extends Shape {
     }
 
     public String toString(){
-        return super.toString() + " of radius " + length + " " + width;
+        return super.toString() + " of length " + length + " and width " + width;
     }
 }
