@@ -1,4 +1,4 @@
-package Modul5;
+package Soal1;
 
 public abstract class Shape {
     protected String shapeName;
