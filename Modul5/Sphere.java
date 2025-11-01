@@ -1,4 +1,4 @@
-package Modul5;
+package Soal1;
 
 public class Sphere extends Shape {
     private double radius;
