@@ -1,12 +1,12 @@
-package Modul5;
+package Soal1;
 
 public class Rectangle extends Shape {
     private double length;
     private double width;
 
-    public Rectangle(double r, double w){
+    public Rectangle(double l, double w){
         super("Rectangle");
-        length=r;
+        length=l;
         width=w;
     }
 
