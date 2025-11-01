@@ -1,4 +1,4 @@
-package Modul5;
+package Soal1;
 
 public class Paint
 {
