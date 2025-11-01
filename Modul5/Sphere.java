@@ -4,7 +4,7 @@ public class Sphere extends Shape {
     private double radius;
 
     public Sphere(double r) {
-        super("Prak.Sphere");
+        super("Sphere");
         radius = r;
     }
 
