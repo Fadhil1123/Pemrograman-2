@@ -1,4 +1,4 @@
-package Modul5;
+package Soal1;
 import java.text.DecimalFormat;
 
 public class PaintThings
